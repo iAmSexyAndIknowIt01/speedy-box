@@ -45,7 +45,7 @@ export default function AuthForm({ type }: Props) {
       {/* Button */}
       <button
         type="submit"
-        className="w-full bg-gradient-to-r from-blue-600 to-cyan-500 text-white py-3 rounded-xl font-medium hover:opacity-90 transition"
+        className="w-full bg-linear-to-r from-blue-600 to-cyan-500 text-white py-3 rounded-xl font-medium hover:opacity-90 transition"
       >
         {isLogin ? "Нэвтрэх" : "Бүртгүүлэх"}
       </button>

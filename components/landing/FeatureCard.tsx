@@ -10,7 +10,7 @@ type Props = {
 export default function FeatureCard({ icon: Icon, title, desc }: Props) {
   return (
     <AnimatedSection>
-      <div className="group relative h-full rounded-2xl p-[1px] bg-gradient-to-b from-blue-200/50 to-transparent">
+      <div className="group relative h-full rounded-2xl p-px bg-linear-to-b from-blue-200/50 to-transparent">
         
         {/* Glow on hover */}
         <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition bg-blue-200 blur-xl" />

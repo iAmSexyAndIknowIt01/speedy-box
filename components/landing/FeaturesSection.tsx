@@ -24,11 +24,11 @@ export default function FeaturesSection() {
   return (
     <section className="py-28 relative overflow-hidden">
       {/* Background gradient */}
-      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-white via-blue-50 to-white" />
+      <div className="absolute inset-0 -z-10   from-white via-blue-50 to-white" />
 
       {/* Glow effects */}
-      <div className="absolute w-[500px] h-[500px] bg-blue-300 rounded-full blur-3xl opacity-20 top-[-100px] left-[-100px]" />
-      <div className="absolute w-[400px] h-[400px] bg-cyan-300 rounded-full blur-3xl opacity-20 bottom-[-100px] right-[-100px]" />
+      <div className="absolute w-125 h-125 bg-blue-300 rounded-full blur-3xl opacity-20 -top-25 -left-25" />
+      <div className="absolute w-100 h-100 bg-cyan-300 rounded-full blur-3xl opacity-20 -bottom-25 -right-25" />
 
       <Container>
         {/* HEADER */}
@@ -41,7 +41,7 @@ export default function FeaturesSection() {
 
           <h2 className="text-3xl md:text-5xl font-bold leading-tight">
             Бизнесээ{" "}
-            <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
               дараагийн түвшинд
             </span>{" "}
             хүргэ

@@ -14,8 +14,8 @@ export default function AuthCard({
     <div className="min-h-screen flex items-center justify-center relative overflow-hidden">
 
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-cyan-400 -z-10" />
-      <div className="absolute w-[400px] h-[400px] bg-white/20 blur-3xl rounded-full top-[-100px] left-[-100px]" />
+      <div className="absolute inset-0 bg-linear-to-br from-blue-600 to-cyan-400 -z-10" />
+      <div className="absolute w-100 h-100 bg-white/20 blur-3xl rounded-full -top-25 -left-25" />
 
       {/* Back button */}
       <Link
@@ -31,7 +31,7 @@ export default function AuthCard({
 
         {/* Logo */}
         <Link href="/" className="block text-center mb-6">
-          <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
+          <h1 className="text-2xl font-bold bg-linear-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
             Speedy Box
           </h1>
         </Link>
